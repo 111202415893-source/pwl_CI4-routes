@@ -1,1 +1,4 @@
-ini halaman produk
+<?= $this->extends('layout')?>
+<?= $this->section('content') ?>
+  <p>Ini halaman produk</p>
+<?= $this->endSection() ?>
